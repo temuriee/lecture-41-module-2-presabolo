@@ -1,26 +1,30 @@
 {
-  "name": "lecture-41-module-2-presabolo",
-  "version": "0.1.0",
-  "private": true,
+  "name": "fortune-cookie-server-test",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mind1a/fortune-cookie-server-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mind1a/fortune-cookie-server-test/issues"
+  },
+  "homepage": "https://github.com/Mind1a/fortune-cookie-server-test#readme",
+  "description": "",
   "dependencies": {
-    "next": "16.1.1",
-    "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.2"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.1.1",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "nodemon": "^3.1.10"
   }
 }
